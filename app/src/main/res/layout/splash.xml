@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/text_roomy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roomy"
+        android:textSize="48sp"
+        android:textStyle="normal"
+        android:fontFamily="@font/calibre_medium"
+        android:textColor="#F87F72"
+        android:layout_alignEnd="@id/icon"
+        android:layout_below="@id/icon"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:paddingTop="12dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find your roomate today"
+            android:fontFamily="@font/calibre_regular"
+            android:paddingTop="12dp"
+            android:textStyle="normal"
+            android:textSize="28sp"
+            android:layout_below="@id/text_roomy"
+            android:layout_centerHorizontal="true"
+            android:textColor="#CBCCCD"/>
+
+
+    <ImageView
+        android:id="@+id/wave"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="-90dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_wave" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:fontFamily="@font/calibre_regular"
+        android:paddingBottom="18dp"
+        android:paddingTop="12dp"
+        android:textStyle="normal"
+        android:textSize="32sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F7DBE1"/>
+
+
+</RelativeLayout>
